@@ -1,0 +1,93 @@
+#container{
+    background-color: dimgrey;
+    width: 350px;
+    height: 500px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px;
+    position: relative;
+}
+#input{
+    background-color: aliceblue;
+    width: 349px;
+    height: 40px;
+    margin: 20px auto;
+    padding-top: 10px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px lightblue;
+    text-align: right;
+    font-size: 30px;
+    
+}
+#equal{
+    width: 300px;
+    height: 100px;
+    background-color:darkorchid;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 85px;
+    text-decoration-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px;
+}
+#row1{
+    position: absolute;
+    margin-top: 100px
+}
+#row2{
+    position: absolute;
+    margin-top: 150px;
+}
+#row3{
+    position: absolute;
+    margin-top: 205px;
+}
+#row4{
+    position: absolute;
+    margin-top: 255px
+}
+#row5{
+    position: absolute;
+    margin-top: 305px;
+}
+.button{
+    background-color: aliceblue;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    
+    }
+.button2{
+     background-color: aliceblue;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right:5px;
+}
+.button2, .button, #equal:hover{
+    cursor: pointer;
+}
+#seven{
+    margin-left:118px;
+}
+#four{
+    margin-left: 118px;
+}
+#one{
+    margin-left: 118px;
+}
+#zero{
+    margin-left: 118px; 
+}
+#clear{
+    position: absolute;
+    left: 295px;
+    background-color:#ed2525;
+}
